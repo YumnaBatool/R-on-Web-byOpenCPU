@@ -34,8 +34,7 @@ STEPS:
     <pre><code id="output"></code></pre>
     
 3- Define opencpu server calls in javascript as below. You can learn it from OpenCPU tutorials. 
-<script>
-$(document).ready(function(){
+    $(document).ready(function(){
 
       $("#submitbutton").on("click", function(){
         ocpu.seturl("https://public.opencpu.org/ocpu/library/appdemo/R")
@@ -74,6 +73,5 @@ $(document).ready(function(){
         
        
     });    
-    </script>
 
 
